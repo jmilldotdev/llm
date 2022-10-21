@@ -9,7 +9,7 @@ readme = "README.md"
 license = { file = "LICENSE" }
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
-dependencies = ["sqlitedict", "redis", "tqdm"]
+dependencies = ["sqlitedict", "redis", "tqdm", "llm-providers"]
 
 [project.urls]
 Home = "https://jmill.dev/projects/llm"
